@@ -17,7 +17,7 @@
 
       <!-- customos color -->
       <style>
-            .font-poppins{
+            .font-poppins {
                   font-family: 'Poppins', sans-serif;
             }
       </style>
@@ -30,6 +30,7 @@
                               colors: {
                                     clifford: '#da373d',
                                     "bike-primary": '#E76F51',
+                                    "bike-primary-bg": 'rgba(231, 111, 81, 0.10)',
                               }
                         }
                   }
@@ -39,7 +40,7 @@
 </head>
 
 <body class="font-poppins">
-      <header>
+      <header class="md:container md: mx-auto">
             <nav>
                   <div class="navbar bg-base-100 mt-14">
                         <div class="flex-1">
@@ -70,15 +71,200 @@
                               </ul>
                         </div>
                         <div class="mx-auto">
-                              <a class="btn bg-bike-primary text-sm text-white">Login</a>
+                              <a
+                                    class="text-center mx-auto pt-3 text-white bg-bike-primary w-[100px] h-[50px] rounded-lg">Login</a>
                         </div>
                   </div>
             </nav>
+            <!-- slider or carousel set up -->
+            <div class="carousel w-full bg-bike-primary-bg mt-[50px] lg:h-[550px]">
+                  <!-- slider-1 -->
+                  <div id="slide1" class="carousel-item relative w-full">
+                        <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20">
+                              <div class="space-y-7 flex-1">
+                                    <h2 class="text-[60px] font-bold text-[#000]">Ride-on R15 V4
+                                          <br>with Smile
+                                    </h2>
+                                    <p class="text-base text-[rgba(0, 0, 0, 0.80)]">Amet minim mollit non deserunt
+                                          ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                                          velit mollit.
+                                    </p>
+                                    <button
+                                          class="text-sm text-white bg-bike-primary w-[150px] h-[50px] rounded-lg">purchase</button>
+
+                              </div>
+                              <div class="flex-1">
+                                    <img class="w-[400px]" src="/images/slider/bike1.png" class="w-full" />
+                              </div>
+                        </div>
+
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide4" class="btn btn-circle">❮</a>
+                              <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+                  <!-- slider-2 -->
+                  <div id="slide2" class="carousel-item relative w-full">
+
+                        <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20">
+                              <div class="space-y-7 flex-1">
+                                    <h2 class="text-[60px] font-bold text-[#000]">Ride-on R15 V4
+                                          <br>with Smile
+                                    </h2>
+                                    <p class="text-base text-[rgba(0, 0, 0, 0.80)]">Amet minim mollit non deserunt
+                                          ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                                          velit mollit.
+                                    </p>
+                                    <button
+                                          class="text-sm text-white bg-bike-primary w-[150px] h-[50px] rounded-lg">purchase</button>
+
+                              </div>
+                              <div class="flex-1">
+                                    <img class="w-[400px]" src="/images/slider/bike2.png" class="w-full" />
+                              </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide1" class="btn btn-circle">❮</a>
+                              <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+                  <!-- slider-3 -->
+                  <div id="slide3" class="carousel-item relative w-full">
+                        <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20">
+                              <div class="space-y-7 flex-1">
+                                    <h2 class="text-[60px] font-bold text-[#000]">Ride-on R15 V4
+                                          <br>with Smile
+                                    </h2>
+                                    <p class="text-base text-[rgba(0, 0, 0, 0.80)]">Amet minim mollit non deserunt
+                                          ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                                          velit mollit.
+                                    </p>
+                                    <button
+                                          class="text-sm text-white bg-bike-primary w-[150px] h-[50px] rounded-lg">purchase</button>
+
+                              </div>
+                              <div class="flex-1">
+                                    <img class="w-[400px]" src="/images/slider/bike3.png" class="w-full" />
+                              </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide2" class="btn btn-circle">❮</a>
+                              <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+                  <!-- slider-4 -->
+                  <div id="slide4" class="carousel-item relative w-full">
+                        <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20">
+                              <div class="space-y-7 flex-1">
+                                    <h2 class="text-[60px] font-bold text-[#000]">Ride-on R15 V4
+                                          <br>with Smile
+                                    </h2>
+                                    <p class="text-base text-[rgba(0, 0, 0, 0.80)]">Amet minim mollit non deserunt
+                                          ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                                          velit mollit.
+                                    </p>
+                                    <button
+                                          class="text-sm text-white bg-bike-primary w-[150px] h-[50px] rounded-lg">purchase</button>
+
+                              </div>
+                              <div class="flex-1">
+                                    <img class="w-[400px]" src="/images/slider/bike4.png" class="w-full" />
+                              </div>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide3" class="btn btn-circle">❮</a>
+                              <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+            </div>
       </header>
+      <main class="md:container md: mx-auto mt-[80px]">
+            <div>
+                  <div>
+                        <h2 class="text-[48px] font-bold text-[#000] mb-[30px] text-center">Featured Bikes In This Year
+                        </h2>
+                  </div>
+                  <div class="grid grid-col lg:grid-cols-3 gap-2">
+                        <img class="h-[250px] w-[260px]" src="images/others/extrabike.png" alt="_img">
+                        <img class="h-[250px] w-[260px]" src="images/others/feature-bike.png" alt="_img">
+                        <img class="h-[250px] w-[260px]" src="images/others/extrabike.png" alt="_img">
 
-      <body>
+                  </div>
+            </div>
+            <div class="mt-[100px]">
+                  <div>
+                        <h2 class="text-[48px] font-bold text-[#000] mb-[30px] text-center mb-[50px] ">latest News</h2>
+                  </div>
+                  <div class="grid grid-col lg:grid-cols-3 gap-2">
+                        <div>
+                              <img class="h-[250px] w-[260px] mb-[40px] " src="images/others/extrabike.png" alt="_img">
+                              <h2 class="text-[#18191F] text-[28px] font-bold mb-[10px]">Ducati XDIAVEL S-73</h2>
+                              <p class="text-base text-[#6C6C6C] mb-[20px]">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                              <button class="text-sm text-white bg-bike-primary w-[100px] h-[40px] rounded-lg">Read
+                                    more</button>
+                        </div>
+                        <div>
+                              <img class="h-[250px] w-[260px] mb-[40px] " src="images/others/feature-bike.png"
+                                    alt="_img">
+                              <h2 class="text-[#18191F] text-[28px] font-bold mb-[10px]">Ducati XDIAVEL S-73</h2>
+                              <p class="text-base text-[#6C6C6C] mb-[20px]">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                              <button class="text-sm text-white bg-bike-primary w-[100px] h-[40px] rounded-lg">Read
+                                    more</button>
+                        </div>
+                        <div>
+                              <img class="h-[250px] w-[260px] mb-[40px] " src="images/others/extrabike.png" alt="_img">
+                              <h2 class="text-[#18191F] text-[28px] font-bold mb-[10px]">Ducati XDIAVEL S-73</h2>
+                              <p class="text-base text-[#6C6C6C] mb-[20px]">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                              <button class="text-sm text-white bg-bike-primary w-[100px] h-[40px] rounded-lg">Read
+                                    more</button>
+                        </div>
+                  </div>
+                  <div class="mt-[100px]">
+                        <div class="mb-[50px]">
+                              <h2 class="text-[48px] font-bold text-[#000] mb-[30px] text-center mb-[50px] ">Happy <span
+                                          class="text-[#E76F51]">Clients says</span></h2>
+                        </div>
+                        <div class="grid grid-col lg:grid-cols-3 gap-4">
+                              <div>
+                                    <img class="rounded-full w-[120px] h-[120px] mb-[30px]" src="images/others/user-1.png" alt="">
+                                    <p class="text-[#6C6C6C] text-base">Slate helps you see how
+                                          many more days you need
+                                          to work to reach your financial
+                                          goal for the month and year.</p>
+                                    <p class="text-[#23A6F0] text-[14px]">Regina Miles</p>
+                                    <h2 class="text-[#252B42] text-[14px]">Banker</h2>
+                              </div>
+                              <div>
+                                    <img class="rounded-full w-[120px] h-[120px] mb-[30px]" src="images/others/user-2.png" alt="">
+                                    <p class="text-[#6C6C6C] text-base">Slate helps you see how
+                                          many more days you need
+                                          to work to reach your financial
+                                          goal for the month and year.</p>
+                                    <p class="text-[#23A6F0] text-[14px]">Regina Miles</p>
+                                    <h2 class="text-[#252B42] text-[14px]">Banker</h2>
+                              </div>
+                              <div>
+                                    <img class="rounded-full w-[120px] h-[120px] mb-[30px]" src="images/others/user-3.png" alt="">
+                                    <p class="text-[#6C6C6C] text-base">Slate helps you see how
+                                          many more days you need
+                                          to work to reach your financial
+                                          goal for the month and year.</p>
+                                    <p class="text-[#23A6F0] text-[14px]">Regina Miles</p>
+                                    <h2 class="text-[#252B42] text-[14px]">Banker</h2>
+                              </div>
 
-      </body>
+                        </div>
+                  </div>
+            </div>
+
+
+
+      </main>
       <footer>
 
       </footer>
